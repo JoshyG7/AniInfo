@@ -1,0 +1,222 @@
+/* *{
+    transition: all .1s linear;
+} */
+.heading img{
+    width: 95%;
+    height: 520px;
+    margin-top: 8px;
+    border-radius: 30px;   
+    margin-left: 30px;
+}
+body{
+    background-color: rgba(24, 25, 29, 0.978);
+}
+.color{
+    width: 50%;
+    height: 520px;
+    margin-top: 8px;
+    background-color: rgba(24, 25, 29, 0.978);
+    position: fixed;
+    box-shadow: 0px 0px 60px 80px rgba(24, 25, 29, 0.978);
+    margin-left: 30px;
+}
+.headingText{
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    position: fixed;
+    top: 90px;
+    left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif;
+}
+.headingText span{
+    color: rgb(97, 97, 203);
+}
+.SearchAnime{
+    width: 450px;
+    height: 50px;
+    position: fixed;
+    top: 210px;
+    left: 100px;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: solid 1px white;
+    font-size: 20px;
+}
+.SearchButton{
+    position: fixed;
+    top: 210px;
+    left: 590px;
+    width: 55px;
+    height: 55px;
+    border-radius: 14px;
+    border: solid 1px rgb(97, 97, 203);
+    background-color: rgb(97, 97, 203);
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.AnimeInfo{
+    position: fixed;
+    top: 290px;
+    left: 100px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.TopAnime, .UpcomingAnime{
+    position: fixed;
+    top: 456px;
+    left: 100px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    background-color: rgb(97, 97, 203);
+    width: 220px;
+    height: 60px;
+    border: solid 1px rgb(97, 97, 203);
+    border-radius: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.UpcomingAnime{
+    left: 360px;
+}
+.ContentHeading{
+    visibility: visible;
+    position: fixed;
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif;
+    background-color: rgb(18, 18, 37);
+    margin-top: -8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    padding-left: 74px;
+}
+.head span{
+    color: rgb(97, 97, 203);
+}
+.tpAnime:hover, .upAnime:hover{
+    background-color: rgba(146, 162, 176, 0.512);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.SearchAnimeContent{
+    width: 240px;
+    border-radius: 14px;
+    border: solid 1px white;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-right: -561px;
+    height: 34px;
+}
+.SearchButtonContent{
+    position: fixed;
+    right: 60px;
+    height: 39px;
+    border: solid 1px rgb(97, 97, 203);
+    border-radius: 10px;
+    width: 40px;
+    background-color: rgb(97, 97, 203);
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+.AnimeName{
+    color: white;
+    font-size: 100px;
+}
+
+
+
+.heading{
+    visibility: visible;
+}
+.ContentHeading{
+    visibility: hidden;
+}
+.wait{
+    position: fixed;
+    top: 20px;
+    left: 500px;
+    width: 240px;
+    height: 270px;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+.wait p{
+    position: fixed;
+    top: 255px;
+    left: 505px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif;
+}
+
+
+.box{
+    display: inline-block;
+    position: fixed;
+    top: 96px;
+    left: 340px;
+    color: white;
+    font-size: 21px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif;
+    width: 650px;
+    height: 600px;
+}
+.ImageAnime{
+    position: fixed;
+    top: 96px;
+    left: 80px;
+    width: 210px;
+    height: 300px;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+.type, .source, .episodes{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.type{
+    margin-left: 0;
+}
+.WatchTrailer{
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    background-color: rgb(97, 97, 203);
+    width: 170px;
+    height: 50px;
+    border: solid 1px rgb(97, 97, 203);
+    border-radius: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.synopsis{
+    width: 900px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.box2{
+    width: 210px;
+    height: 90px;
+    position: fixed;
+    top: 402px;
+    left: 80px;
+    font-size: 20px;
+}
