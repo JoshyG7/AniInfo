@@ -62,18 +62,18 @@ SearchButtonContent.addEventListener("click",()=>{
     showInfo();
 });
 
-// SearchAnime.addEventListener('keyup',(e)=>{
-//     if(e.keyCode===13){
-//         NameofAnime=SearchAnime.value;
-//         showInfo();
-//     }
-// });
-// SearchAnimeContent.addEventListener('keyup',(e)=>{
-//     if(e.keyCode===13){
-//         NameofAnime=SearchAnime.value;
-//         showInfo();
-//     }
-// });
+SearchAnime.addEventListener('keyup',(e)=>{
+    if(e.keyCode===13){
+        NameofAnime=SearchAnime.value;
+        showInfo();
+    }
+});
+SearchAnimeContent.addEventListener('keyup',(e)=>{
+    if(e.keyCode===13){
+        NameofAnime=SearchAnimeContent.value;
+        showInfo();
+    }
+});
 
 function gotoLink(link){
     if(data.data[0].trailer.url){
