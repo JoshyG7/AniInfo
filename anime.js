@@ -54,23 +54,27 @@ ContentHeading.style.visibility="hidden";
 
 SearchButton.addEventListener("click",()=>{
     NameofAnime=SearchAnime.value;
+    SearchAnime.value="";
     showInfo();
 });
 
 SearchButtonContent.addEventListener("click",()=>{
     NameofAnime=SearchAnimeContent.value;
+    SearchAnimeContent.value="";
     showInfo();
 });
 
 SearchAnime.addEventListener('keyup',(e)=>{
     if(e.keyCode===13){
         NameofAnime=SearchAnime.value;
+        SearchAnime.value="";
         showInfo();
     }
 });
 SearchAnimeContent.addEventListener('keyup',(e)=>{
     if(e.keyCode===13){
         NameofAnime=SearchAnimeContent.value;
+        SearchAnimeContent.value="";
         showInfo();
     }
 });
